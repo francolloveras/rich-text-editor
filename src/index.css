@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Geist';
+}
+
+.rich-text-editor div {
+  width: 100%;
+  height: 100%;
+  outline-style: none;
+}
+
+.rich-text-editor ul {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.rich-text-editor ul li p {
+  margin-left: -0.25rem;
+}
+
+.rich-text-editor ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.rich-text-editor li p {
+  display: inline;
+}
+
+.rich-text-editor li ul,
+.rich-text-editor li ol {
+  margin-left: 2rem;
+}
+
+.rich-text-editor a {
+  cursor: pointer;
+  text-decoration-line: underline;
+  color: var(--color-blue-800);
+}
+
+.rich-text-editor p:empty::before {
+  content: '\00a0';
+  white-space: pre;
+}
