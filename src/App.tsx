@@ -69,12 +69,12 @@ export default function App() {
         <div className="flex flex-col gap-y-4 justify-center">
           <div className="flex gap-x-2">
             <img
-              src="/image-1.jpg"
+              src="/rich-text-editor/image-1.jpg"
               alt="demo image 1"
               className="h-44 block rounded-xl shadow-sm"
             />
             <img
-              src="/image-2.jpg"
+              src="/rich-text-editor/image-2.jpg"
               alt="demo image 2"
               className="h-44 block rounded-xl shadow-sm"
             />
